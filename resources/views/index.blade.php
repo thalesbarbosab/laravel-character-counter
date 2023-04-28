@@ -49,4 +49,9 @@
         </div>
     </form>
 @endsection
-
+@section('js')
+    <script>
+        enableCharacterCounter('name',70);
+        enableCharacterCounter('about',300);
+    </script>
+@endsection
